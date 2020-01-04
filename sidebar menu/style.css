@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	margin: 0;
+}
+#sidebar{
+	background: #333;
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: -200px;
+transition: 1s;
+}
+
+#sidebar ul li{
+	list-style: none;
+	border-top: 1px solid #424242;
+	border-bottom: 1px solid #242424;
+	
+}
+#sidebar ul li a{
+	color: #fff;
+	font-family: tahoma;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px;
+	display: block;
+}
+#sidebar.active{
+	left: 0px;
+}
+#sidebar #toggle-btn{
+	position: absolute;
+	top: 20px;
+	left: 220px;
+	cursor: pointer;
+}
+#sidebar #toggle-btn span{
+	background: #333;
+	display: block;
+	width: 30px;
+	height: 5px;
+	margin: 5px 0;
+
+}
+#sidebar ul li a:hover{
+	color: #ccc;
+}

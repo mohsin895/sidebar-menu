@@ -1,0 +1,33 @@
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ 	<div id="sidebar">
+ 		<div id="toggle-btn" onclick="toggleBtn()">
+ 			<span></span>
+ 			<span></span>
+ 			<span></span>
+ 		</div>
+ 		
+ 		<ul>
+ 		<li><a href="#">home</a></li>
+ 		<li><a href="#">about us</a></li>
+ 		<li><a href="#">services</a></li>
+ 		<li><a href="#">portfoilo</a></li>
+ 		<li><a href="#">contact us</a></li>
+ 		</ul>
+ 	</div>
+
+ 	<script type="text/javascript">
+ 		function toggleBtn(){
+ 			document.getElementById('sidebar').classList.toggle('active');
+ 		}
+ 	</script>
+ 
+ </body>
+ </html>
